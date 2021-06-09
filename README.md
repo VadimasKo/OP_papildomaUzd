@@ -4,3 +4,14 @@
    2. Sukurkite cross-reference tipo lentelę kurioje būtų nurodyta, kurioje teksto vietoje (kurioje(-iose) teksto eilutėse) kiekvienas iš daugiau negu vieną kartą pasikartojantis žodis buvo paminėtas.
    3. URL adresų suradimas Jūsų tekste. Kaip ir pirmos užduoties atveju, tekstą galite paimti iš bet kur, račiau būtina, kad tame tekste būtų bent keli URL'ai, pateikti "pilnu" https://www.vu.lt/ ar "sutrumpintu" pavidalu: www.vu.lt. Jūsų tikslas, iš to teksto išrinkti visus šiuos URL'us ir grąžiai atspausdinti ekrane (ar išvesti į failą)!
    4. Repozicija turi būti parengta pagal visus ankstesnių darbų galutinėms versijoms galiojančius reikalavimus.
+
+## Diegimo istrukcija
+ 1. Atsisiusti programos repozitorija
+ 2. Sukompiliuoti koda
+ ```
+      g++ main.cpp
+ ```
+ ## Paleidimo instrukcija 
+   * ``` ./a.out ```
+   * norint pakeisti skaitoma file  redaguogite input.txt arba main.cpp file pakeiskite fileName, pvz fileName = "myFile.txt"
+  
